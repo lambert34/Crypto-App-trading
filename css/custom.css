@@ -1,0 +1,14 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+body
+{
+  font-family: 'Poppins', sans-serif;
+  overflow: hidden;
+  background: #313131;/*#2196f3;*/
+}
+
