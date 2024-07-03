@@ -59,7 +59,89 @@ body
   top: -4px;
 }
 
+#ta_action_btns {
+  margin-top: 20px;
+}
 
+#ta_action_btns .btn {
+  position: relative;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  border-radius: 8px;
+  border: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #fff;
+}
 
+#ta_action_btns i.fa {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 8px;
+}
 
+#ta_action_btns .ta_btn_buy {
+  background-color: var(--app-primary-color);
+}
 
+#ta_body_transactions {
+  margin-top: 20px;
+  padding: 15px 0;
+}
+
+#ta_body_transactions .body_title {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+div.transaction_list {
+  margin-top: 25px;
+}
+
+div.transaction_list > div {
+  margin-top: 20px;
+}
+
+div.transaction_list .transactions_thumb i {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+  border-radius: 8px;
+  background-color: #dee9f8;
+  color: var(--app-text-dark-color);
+}
+
+div.transaction_list .transaction_title {
+  font-size: 14px;
+  font-weight: 600;
+  display: block;
+  color: var(--app-text-light-color);
+}
+
+div.transaction_list .transaction_caption {
+  font-size: 10px;
+  font-weight: 500;
+  display: block;
+  color: var(--app-text-light-color);
+}
+
+div.transaction_list .transaction_amount {
+  font-size: 13.5px;
+  font-weight: 600;
+  display: block;
+  color: #29cbe4;
+}
+
+div.transaction_list .amount_sent {
+  color: var(--app-text-light-color);
+}
