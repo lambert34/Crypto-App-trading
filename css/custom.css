@@ -12,3 +12,54 @@ body
   background: #313131;/*#2196f3;*/
 }
 
+:root {
+  --app-bg-color: #fff;
+  --app-primary-color:#3d30bb;
+  --app-text-dark-color:rgba(0,0,0,0.8);
+  --app-text-light-color: rgba(0,0,0,0.5);
+}
+
+#ta_app {
+  position: absolute;
+  background-color: var(--app-bg-color);
+  right: 90px;
+  width: 350px;
+  height: auto;
+  padding: 0 22px;
+  padding-bottom: 20px;
+  overflow: hidden;
+  margin-top: 120px;
+  border-radius: 15px;
+  box-shadow: 0 0 0 0.5px rgba(255, 255, 255, 0.3)
+              60px 70px 40px -55px rgba(0, 0, 0, 0.5);
+}
+
+#ta_header {
+  margin-top: 20px;
+}
+
+#ta_header div.name {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--app-text-light-color);
+}
+
+#ta_header div.caption {
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 0px;
+  color: var(--app-text-dark-color);
+}
+
+#ta_header div.caption i {
+  position: relative;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--app-primary-color);
+  top: -4px;
+}
+
+
+
+
+
